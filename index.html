@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            * {
+                text-decoration: none;
+            }
+            .red234 {
+                color: #f52b53;
+            }
+            header {
+  position: relative;
+  width: 100%;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  height: 80px; /* можно поменять под твой navbar */
+  overflow: hidden;
+}
+
+/* Контент по центру */
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  padding: 0 2rem;
+  position: relative;
+  z-index: 2;
+}
+
+/* Изображения по углам экрана */
+.halloween-img {
+  position: fixed; /* фиксируем к экрану */
+  top: 0;
+  height: 80px; /* совпадает с высотой header */
+  width: auto;
+  object-fit: contain;
+  pointer-events: none;
+  opacity: 0.9;
+  z-index: 1;
+}
+
+.halloween-img.left {
+  left: 0;
+}
+
+.halloween-img.right {
+  right: 0;
+}
+.snowflake {
+    position: absolute;
+    top: -10px;
+    color: white;
+    animation-name: fall;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+
+@keyframes fall {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(100vh);
+    }
+}
+
+/* Адаптив */
+@media (max-width: 768px) {
+  header {
+    height: 60px;
+  }
+
+  .halloween-img {
+    height: 60px;
+    opacity: 0.7;
+  }
+}
+
+
+
+        </style>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+    <link rel="apple-touch-icon" href="/favicon.png">
+    <script>
+        window.addEventListener('beforeunload', function (event) {
+            event.preventDefault();
+            event.returnValue = '';
+            return 'Are you sure you want to leave? Any unsaved changes will be lost.';
+        });
+    </script>
+    <script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5521219086088837" crossorigin="anonymous"></script>
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-WX5VS54ZDW"></script>
+    <meta name="google-adsense-account" content="ca-pub-5521219086088837">
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-WX5VS54ZDW');
+    </script>
+    <script async src="https://fundingchoicesmessages.google.com/i/pub-5521219086088837?ers=1"></script><script>(function() {function signalGooglefcPresent() {if (!window.frames['googlefcPresent']) {if (document.body) {const iframe = document.createElement('iframe'); iframe.style = 'width: 0; height: 0; border: none; z-index: -1000; left: -1000px; top: -1000px;'; iframe.style.display = 'none'; iframe.name = 'googlefcPresent'; document.body.appendChild(iframe);} else {setTimeout(signalGooglefcPresent, 0);}}}signalGooglefcPresent();})();</script>
+    <script src="https://cdn.jsdelivr.net/gh/gn-mathcopy/gn-mathcopy.github.io@main/gnmath.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gn-math</title>
+    <meta name="title" content="GN-Math">
+    <meta name="description" content="Play unbl*cked games like Crazy Cattle 3D and DriveMad on GN-Math. Fast, free, no downloads—perfect for school or home.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://gnmathcopy.github.io/">
+    <meta property="og:title" content="GN-Math">
+    <meta property="og:description" content="Play unbl*cked games like Crazy Cattle 3D and DriveMad on GN-Math. Fast, free, no downloads—perfect for school or home.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://gnmathcopy.github.io/">
+    <meta name="twitter:title" content="GN-Math">
+    <meta name="twitter:description" content="Play unbl*cked games like Crazy Cattle 3D and DriveMad on GN-Math. Fast, free, no downloads—perfect for school or home.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode">
+    <header>
+     <!--  <img src="halloween-left.18384599.png" alt="Halloween Left" class="halloween-img left"> 
+        <img src="halloween-right.1ddd0892.png" alt="Halloween Right" class="halloween-img right"> -->
+      
+        <div class="header-content">
+          <div class="logo"><img src="./favicon.png" alt="" width="120px"></div>
+          <div class="search-container">
+            <input type="text" id="searchBar" placeholder="Search zones..." oninput="filterZones()">
+            <select id="sortOptions" onchange="sortZones()">
+              <option value="name">Name</option>
+              <option value="id">ID (Date)</option>
+              <option value="popular">Popular</option>
+            </select>
+            <select id="filterOptions" onchange="filterZones2()">
+                <option value="none">(SELECT TAG)</option>
+              </select>
+          </div>
+          <div class="control-buttons">
+            <button id="settings" style="background-color: var(--primary-color); color: white; border: none; border-radius: 4px; padding: 0.5rem 1rem; font-size: 16px; cursor: pointer;">Settings</button>
+          </div>
+        </div>
+      </header>
+            
+    <ins class="adsbygoogle"
+    style="display:block; text-align:center;"
+    data-ad-client="ca-pub-5521219086088837"
+    data-ad-slot="5549138288"
+    data-ad-format="auto"
+    data-full-width-responsive="true">
+    <h1 class="red234">Many games are not working but soon its going to be fixed</h1>
+</ins>
+   <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+   </script>
+
+    <main>
+        <details id="featuredZonesWrapper" open>
+            <summary id="allZonesSummary" style="font-size: 1.2rem; font-weight: bold; cursor: pointer;">Featured Games</summary>
+            <div id="featuredZones" class="zone-container"></div>
+        </details>
+        <br><hr><br>
+        <details id="allZonesWrapper" open>
+            <summary id="allSummary" style="font-size: 1.2rem; font-weight: bold; cursor: pointer;">All Zones</summary>
+            <div id="container">Loading...</div>
+        </details>
+    </main>
+
+    <div id="zoneViewer">
+        <div class="zone-header">
+            <div class="zone-title">
+                <h2 id="zoneName">zone</h2>
+                <span id="zoneId" style="display: none;"></span>
+                <a id="zoneAuthor" href="#" target="_blank">by Author</a>
+            </div>
+            <div class="zone-controls">
+                <button onclick="fullscreenZone()">Fullscreen</button>
+                <button onclick="aboutBlank()">Open in New Tab</button>
+                <button onclick="downloadZone()">Download</button>
+                <button onclick="closeZone()">Close</button>
+            </div>
+        </div>
+        <iframe id="zoneFrame"></iframe>
+    </div>
+
+    <div id="popupOverlay">
+        <div class="popup">
+            <div class="popup-header">
+                <h3 id="popupTitle">Title</h3>
+                <button id="popupClose" onclick="closePopup()">×</button>
+            </div>
+            <div id="popupBody">
+                Content will be here
+            </div>
+        </div>
+    </div>
+
+    <ins class="adsbygoogle"
+    style="display:block; text-align:center;"
+    data-ad-client="ca-pub-5521219086088837"
+    data-ad-slot="5549138288"
+    data-ad-format="auto"
+    data-full-width-responsive="true">
+</ins>
+   <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+   </script>
+    <footer>
+        <div class="footer-links">
+            <a href="#" onclick="loadDMCA(); return false;">DMCA</a>
+            <a href="#" onclick="showContact(); return false;">Contact</a>
+            <a href="#" onclick="loadPrivacy(); return false;">Privacy Policy</a>
+            <a href="javascript:saveData()">Export Data</a>
+            <a href="#" onclick="document.getElementById('importData').click(); return false;">Import Data</a>
+            <input type="file" id="importData" style="display: none;" onchange="loadData(event)">
+        </div>
+    </footer>
+    <script id="_wau1z9">var _wau = _wau || []; _wau.push(["small", "amcze08afp", "1z9"]);</script><script async src="//waust.at/s.js"></script>
+    <script src="script.js"></script>
+    <script>
+        const search = new URLSearchParams(window.location.search);
+        const privacy = search.get('privacy');
+        if (privacy) {
+            loadPrivacy();
+        }
+    </script>
+    <script>
+/* document.addEventListener("DOMContentLoaded", () => {
+    const snowContainer = document.createElement("div");
+    snowContainer.style.position = "fixed";
+    snowContainer.style.top = "0";
+    snowContainer.style.left = "0";
+    snowContainer.style.width = "100%";
+    snowContainer.style.height = "100%";
+    snowContainer.style.pointerEvents = "none";
+    snowContainer.style.overflow = "hidden";
+    snowContainer.style.zIndex = "9999";
+    document.body.appendChild(snowContainer);
+
+    function createSnowflake() {
+        const flake = document.createElement("div");
+        flake.classList.add("snowflake");
+        flake.textContent = "❄";
+        flake.style.left = Math.random() * 100 + "vw";
+        flake.style.animationDuration = 5 + Math.random() * 5 + "s";
+        flake.style.opacity = Math.random();
+        flake.style.fontSize = 10 + Math.random() * 20 + "px";
+        snowContainer.appendChild(flake);
+
+        setTimeout(() => flake.remove(), 10000);
+    }
+
+    setInterval(createSnowflake, 120);
+}); */
+</script>
+    <!-- ANNOUNCEMENT -->
+<div id="announcementOverlay" style="display:none">
+  <div class="announcement-modal">
+    <button class="announcement-close">×</button>
+    <h2 id="annTitle"></h2>
+    <p id="annDesc"></p>
+    <img id="annImg">
+  </div>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
